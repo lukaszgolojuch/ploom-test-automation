@@ -9,7 +9,7 @@ export class PlaywrightCommons {
     }
 
     public async openMainPage(): Promise<void> {
-        await this.page.goto(this.mainURL);
+        await this.page.goto('/');
     }
 
 }
